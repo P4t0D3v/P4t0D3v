@@ -1,0 +1,8 @@
+somar dois numeros
+
+print('======== Exercicio 03 ========')
+
+N1 = int(input('Digite primeiro numero: '))
+N2 = int(input('Digite segundo numero: '))
+S = N1+N2
+print('A soma de {} e de {} da o valor {}'.format(N1, N2, S))
