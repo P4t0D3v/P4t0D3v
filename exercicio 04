@@ -1,0 +1,12 @@
+mostra o tipo de conteudo digitado
+
+print('======== Exercicio 04 ========')
+
+N = input('Digite algo: ')
+print(type(N))
+print('È numerico?',N.isnumeric())
+print('È do alfabeto?',N.isalpha())
+print('Tem espaço?',N.isspace())
+print('Esta em maiusculo',N.isupper())
+print('È alphanumerico?',N.isalnum())
+print('Esta em minusculo?',N.islower())
