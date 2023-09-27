@@ -1,0 +1,36 @@
+27/09/23
+oi no começo não foi facil entender logica de programação mais depois que escreve ola mundo da uma facilitada
+print=exibir texto (ex. print('ola mundo'))
+input= leia (ex. N = input('teste'))
+{}.format()=para subtuir {} por conteudo de ()
+com esses tres comandos ja da para fazer contas claro que não perfeitamente pois sem declarar o tipo o python vai juntar os numeros so
+tipo:
+N1 = (input('Digite um numero: '))
+N2 = (input('Digite outro numero: '))
+S = N1 + N2
+
+print('A soma ente {} e {} è {}'.format(N1,N2,S))
+
+o resultado deu
+
+Digite um numero: 19
+Digite outro numero: 28
+A soma ente 19 e 28 è 1928
+
+para quem sabe matematica basica sabe que isso ta errado
+
+entao para resolver isso e so usar os comandos a seguir
+
+int= numeros enteiros
+float= numeros flutuantes(real)
+bool= True ou False
+
+dependendo da conta int ou float da conta(falo isso porque estou no começo)
+então ficaria assim o comando
+
+N1 = int(input('Digite primeiro numero: '))
+N2 = int(input('Digite segundo numero: '))
+S = N1+N2
+print('A soma de {} e de {} da o valor {}'.format(N1, N2, S))
+
+era isso que eu tinha para fala  
