@@ -1,0 +1,47 @@
+  print('======== Boss 01 ========')
+
+  print('======== Bem vindo ao primeiro desafio ========')
+
+nome = input('Como se chama?')
+  print('Bem vindo',nome)
+
+  print('======== Bem vindo ao segundo desafio ========')
+
+dia = input('dia')
+mes = input('Mes')
+ano = input('ano')
+
+print('Então você nasceu no dia', dia,'/',mes,'/',ano,'Correto ?')
+
+  print('======== Bem vindo ao terceiro desafio ========')
+
+  print('Vamos domar dois numeros')
+N1 = int(input('Me diga o primeiro numero'))
+N2 = int(input('Me diga o segundo numero'))
+s = N1 + N2
+  print('A soma de ' ,N1, 'e' ,N2, 'é' ,s)
+
+
+  print('======== Boss 02 ========')
+
+  print('======== Desafio 01 ========')
+
+N1 = (input('Digite um numero: '))
+N2 = (input('Digite outro numero: '))
+S = N1 + N2
+
+  print('A soma ente {} e {} è {}'.format(N1,N2,S))
+
+  print('======== Desafio 02 ========')
+
+N = input('Digite algo:')
+  print(N,'È numerico')
+  print(N.isnumeric())
+
+s = input('Digite algo:')
+  print(s,'È do alfabeto?')
+  print(s.isalpha())
+
+
+
+
