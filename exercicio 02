@@ -1,0 +1,6 @@
+interação com cliente
+
+print('======== Exercicio 02 ========')
+
+nome = input('Qual é seu nome?')
+print('Muito prazer',nome)
